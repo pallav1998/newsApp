@@ -1,0 +1,39 @@
+.cardDiv {
+  display: flex;
+  margin-bottom: 1.25rem;
+  padding: 0.5rem;
+  width: 800px;
+  height: 300px;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.discruption {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.imageDiv {
+  width: 272px;
+  height: 272px;
+}
+
+@media (max-width: 850px) {
+  .cardDiv {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+  }
+  .discruption {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  .imageDiv {
+    margin: auto;
+  }
+}
+
+/* "ml-4 flex flex-col justify-between" */
